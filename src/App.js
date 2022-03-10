@@ -6,22 +6,20 @@ import Home from './Home';
 
 import Contact  from './Contact';
 
-import {
-  HashRouter as Router,
-  Route,
-  } from 'react-router-dom';
-
+import {  Route, Switch } from 'react-router-dom';
 
 function App() {
 
   return (
     <>
-   <Router>
+    <main>
+    <Switch>
     <Route path="/" component={Home} exact />
         <Route path="/aboutus" component={Aboutus} />
         <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
-</Router>
+    </Switch>
+</main>
 
 
 
@@ -35,4 +33,3 @@ function App() {
 
 
 export default App;
-
