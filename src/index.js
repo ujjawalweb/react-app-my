@@ -7,17 +7,17 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 
 
 ReactDOM.render(
   <>
-  <HashRouter>
+  <BrowserRouter>
   <App />
   
     
-</HashRouter>
+</BrowserRouter>
   </>,
   document.getElementById('root')
 );
