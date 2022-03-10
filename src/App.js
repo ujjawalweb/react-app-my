@@ -3,25 +3,21 @@ import Home from './Home';
 
 import Contact  from './Contact';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {  Route, Switch } from 'react-router-dom';
 
 function App() {
 
   return (
     <>
-     <BrowserRouter>
-    <Router>
-    <Routes>
-    <Route path="/" element={<Home />} />
-        <Route path="/aboutus"  element={<Aboutus />}  />
-        <Route path="/services"  element={<Services />}  />
-        <Route path="/contact"  element={<Contact />}  />
-        
-    </Routes>
+    <main>
+    <Switch>
+    <Route path="/" component={Home} exact />
+        <Route path="/aboutus" component={Aboutus} />
+        <Route path="/services" component={Services} />
+        <Route path="/contact" component={Contact} />
+    </Switch>
+</main>
 
-</Router>
-
- <BrowserRouter>
 
 
 </>
