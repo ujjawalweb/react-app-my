@@ -3,7 +3,7 @@ import Home from './Home';
 
 import Contact  from './Contact';
 
-import {  Route, Switch } from 'react-router-dom';
+import {  BrowserRouter as Router, Switch, Route, Link  } from 'react-router-dom';
 
 function App() {
 
