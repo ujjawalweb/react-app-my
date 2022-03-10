@@ -6,7 +6,7 @@ import Home from './Home';
 
 import Contact  from './Contact';
 
-import { Redirect, Route, Switch } from 'react-router-dom';
+import {  Route, Switch } from 'react-router-dom';
 
 function App() {
 
@@ -23,6 +23,7 @@ function App() {
 
 
 
+
 </>
 
   );
@@ -32,3 +33,4 @@ function App() {
 
 
 export default App;
+
