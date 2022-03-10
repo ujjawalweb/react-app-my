@@ -15,9 +15,9 @@ function App() {
     <main>
     <Routes>
     <Route path="/" element={} component={Home} exact />
-        <Route path="/aboutus" component={Aboutus} />
-        <Route path="/services" component={Services} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/aboutus" element={} component={Aboutus} />
+        <Route path="/services" element={} component={Services} />
+        <Route path="/contact" element={} component={Contact} />
     </Routes>
 </main>
 
