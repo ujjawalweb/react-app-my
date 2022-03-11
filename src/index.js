@@ -12,12 +12,12 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 
 ReactDOM.render(
-  
+  <>
 <BrowserRouter>
   <App />
   
    </BrowserRouter>
-
+</>
  ,
   document.getElementById('root')
 );
