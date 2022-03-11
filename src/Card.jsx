@@ -8,8 +8,8 @@ function Cards(props){
 return(
 
     
-            <div class="serviceBox">
-                <div class="service-icon">
+            <div className="serviceBox">
+                <div className="service-icon">
                     <span><img src={icon1}  class="iconn"/></span>
                 </div>
                 <h3 class="title">{props.title}</h3>
