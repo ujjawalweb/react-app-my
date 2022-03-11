@@ -12,8 +12,8 @@ return(
                 <div className="service-icon">
                     <span><img src={icon1}  class="iconn"/></span>
                 </div>
-                <h3 class="title">{props.title}</h3>
-                <p class="description">{props.paras}</p>
+                <h3 className="title">{props.title}</h3>
+                <p className="description">{props.paras}</p>
             </div>
         
 
